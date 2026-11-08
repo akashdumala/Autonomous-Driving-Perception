@@ -1,0 +1,28 @@
+
+# Python virtual environments
+.venv/
+.carla-venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# IDE and operating system
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# Ultralytics temporary run artifacts
+runs/
+
+# Generated videos
+outputs/*.mp4
+tests/*.mp4
